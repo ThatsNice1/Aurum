@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texit Coin Info</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col items-center pt-16 p-4">
+
+    <h1 class="text-4xl md:text 7xl font-bold tracking-tight text-center whitespace-nowrap">
+        TEXIT COIN INFORMATION
+    </h1>
+
+    <p class="text-sm text-gray-300 text-center mt-6 max-w-10xl px-4">
+        <span class ="font-mono font-extrabold text-white-1000">DISCLAIMER</span>: This is an Independent site and not affiliated with Texit coin or its affiliates. Crypto products, NFT's and Nodes are unregulated and can be highly risky. There may be no regulatory recourse for any loss from transactions.<span class ="font-mono font-extrabold text-white-1000">THIS IS NOT FINANCIAL ADVICE!</span>. Please do your own due diligence. The views, opinions and claims expressed in the videos on this website are intended for training purposes only. <u class="font-bold">YOU</u> are Responsible for all Activities regarding your crypto accounts.
+    </p>
+    
+    <h1 class="text-4xl md:text 7xl tracking-tight text-center mt-10">
+        Earn, <span class="font-mono font-bold" style="color: rgb(6, 251, 20);">Passive Daily Income</span> by Owning a <span class="font-mono font-bold" style="color: rgb(170, 43, 33);">Texit Coin</span> Miner.<br> (no hardware needed)<br> <span class="font-mono font-bold" style="color: rgb(248, 241, 10);">Watch the Videos Below to Learn More...
+    </h1></span>
+    </h1>
+
+    <p class="text-3xl text-gray-300 text-center mt-10 max-w-10xl px-4">
+        <span class ="font-mono text-white-1000">Click on image for current pricing</span..
+    </p>
+
+    <a href="https://coinmarketcap.com/currencies/texitcoin/" target="_blank" class="block mt-16 max-w-md mx-auto">
+        <img 
+            id="image-e1e39836" 
+            src="https://d1yei2z3i6k35z.cloudfront.net/4319829/687a30991adb9_ScreenShot2025-07-13at12.51.26PM.png" 
+            loading="lazy" 
+            class="w-full rounded-lg shadow-lg hover:opacity-75 transition-opacity duration-300"
+            alt="Promotional Image Link"
+        >
+    </a>
+    
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1117434078?title=0&byline=0&portrait=0&autopause=0&app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1090045867?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1101871937?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1115146112?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1107374807?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1102181924?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1090041729?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;app_id=122963"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="mt-20 max-w-3xl lg:max-w-5xl mx-auto w-full">
+        <div class="relative overflow-hidden pt-[56.25%] rounded-lg shadow-xl"> 
+            <iframe 
+                src="https://player.vimeo.com/video/1084252166?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="absolute top-0 left-0 w-full h-full"
+                title="Vimeo Embedded Video"
+            ></iframe>
+        </div>
+    </div>
+
+    <a href="https://minetxc.com/sign-up?sponsor=Thatsnice" target="_blank"
+        class="mt-12 mb-20 px-8 py-4 bg-red-800 text-white text-xl font-medium uppercase tracking-wider rounded-lg shadow-2xl transition duration-300 hover:bg-red-900 transform hover:scale-105 flex items-center justify-center space-x-2"
+    >
+        <span>BUY A TEXIT MINING NODE</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+    </a>
+
+    <p class="text-sm text-gray-300 text-center mt-6 max-w-10xl px-4">
+        DISCLAIMER:
+
+Crypto products and NFT's are unregulated and can be highly risky. There may be no regulatory recourse for any loss from transactions. This is not financial advice. Please do your own due diligence. Past performance does not guarantee future results.The views, opinions and claims expressed in the videos on this website are intended for training purposes only. Personal experiences and results may vary. The recommendations, strategies and claims set forth in this website are not meant to represent how well you will do, or guarantee, expressly or implicitly, your success as individual results will vary.  The videos, audios and materials on this website are not intended and should not be used as legal advice, financial advice, investment advice, tax advice or accounting advice. 
+    </p>
+    
+</body>
+</html>
