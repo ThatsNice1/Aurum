@@ -69,6 +69,19 @@
       list-style: none;
     }
 
+    .admin-panel {
+      display: none;
+      background: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
     .features li {
       margin-bottom: 18px;
       padding-left: 24px;
@@ -139,7 +152,6 @@
       text-align: center;
     }
 
-
     .belief-section h2 {
       color: #fff;
       font-family: 'Playfair Display', serif;
@@ -169,6 +181,33 @@
       width: 100%;
       height: auto;
       display: block;
+    }
+
+    .facebook-outline {
+      border: 1.5px solid #1e6bff;
+      border-radius: 8px;        
+      padding: 12px 16px; 
+      display: inline-block;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .facebook-outline:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgba(30,107,255,0.3);
+    }
+
+    .notice-bar {
+      background-color: #1e6bff;
+      color: white;
+      padding: 15px 20px;         
+      border-radius: 8px;        
+      text-align: center;        
+      font-weight: bold;       
+      display: flex;          
+      align-items: center;
+      justify-content: center;
+      gap: 10px;              
     }
 
     @media (max-width: 900px) {
@@ -221,19 +260,21 @@
 
       <div class="hero-right">
         <div class="card">
-          <p>
-            For information and to get a head start, contact my
-            facebook page using the button below
-          </p>
+          <div class="facebook-outline">
+            <p>
+              For information and to get a head start, contact my
+              facebook page using the button below
+            </p>
 
-          <div class="arrow">▼</div>
+            <div class="arrow">▼</div>
 
-          <a href="https://www.facebook.com/people/Kiaora-Krystal/pfbid0344WU6242bd2hMqJuuhgV3WD2WT7Nb8ekKtv13HaiUWZ28pc3BRkBZtb47asXGCo5l/"
-             class="cta-button"
-             target="_blank"
-             rel="noopener noreferrer">
-            Click here to find the link 📄
-          </a>
+            <a href="https://www.facebook.com/people/Kiaora-Krystal/pfbid0344WU6242bd2hMqJuuhgV3WD2WT7Nb8ekKtv13HaiUWZ28pc3BRkBZtb47asXGCo5l/"
+               class="cta-button"
+               target="_blank"
+               rel="noopener noreferrer">
+              Click here to find the link 📄
+            </a>
+          </div>
 
           <div class="secure-text">
             🔒 100% Secure – Privacy Guaranteed
@@ -245,18 +286,285 @@
   </div>
 
   <section class="belief-section">
-    <h2>REASONS TO BELIEVE IN AURUM</h2>
+  <h2>REASONS TO BELIEVE IN AURUM</h2>
 
-    <div class="belief-grid">
-      <div class="belief-card">
-        <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20231977/file/c1f3b763f43529a4ee47833246587fa1.jpg" alt="Aurum Forbes Recognition">
-      </div>
+  <div class="belief-grid">
+    <div class="belief-card">
+      <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20231977/file/c1f3b763f43529a4ee47833246587fa1.jpg" alt="Aurum Forbes Recognition">
+    </div>
 
-      <div class="belief-card">
-        <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20232000/file/b31f8b39c145fd25e1536a36839eab83.jpg" alt="Aurum EX-AI Bot">
+    <div class="belief-card">
+      <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20232000/file/b31f8b39c145fd25e1536a36839eab83.jpg" alt="Aurum EX-AI Bot">
+    </div>
+  </div>
+</section>
+
+<section class="calculator-section">
+  <h2>Potential earnings calculated by investing in EX-AI BOT</h2>
+
+  <div class="calculator-grid">
+    <div class="calculator-card">
+        <img src="https://github.com/ThatsNice1/Aurum/raw/main/612184532_122120763801041486_4553921375912814340_n.jpg"
+             alt="Profit Calculator 1">
+    </div>
+
+    <div class="calculator-card">
+        <img src="https://github.com/ThatsNice1/Aurum/raw/main/Screenshot%202026-01-16%20085706.png"
+             alt="Profit Calculator 2">
+    </div>
+  </div>
+</section>
+
+<section class="expert-section">
+  <div class="expert-container">
+    <div class="expert-card">
+      <div class="expert-content">
+        <div class="expert-image-box">
+          <img src="https://github.com/ThatsNice1/Aurum/raw/main/e564a4bde862bd9574a73e86768f88d7.avif" alt="Bryan Benson - CEO of Aurum">
+        </div>
+        <div class="expert-text">
+          <h3>Meet the expert</h3>
+          <p>Bryan Benson is the CEO of Aurum Foundation with over 27 years of experience in fintech, digital assets, and Web3. He previously served as Managing Director at Binance, focusing on regional growth and financial inclusion.</p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="ready-section">
+    <h3>Ready to earn while you sleep?</h3>
+    <a href="https://backoffice.aurum.foundation/auth/sign-up" 
+       class="cta-button" target="_blank">
+       Get Started Now 📄
+    </a>
   </section>
+
+  <section class="disclaimer-section">
+    <div class="disclaimer-box">
+      <h3>Disclaimer</h3>
+      <p>
+        This content is for informational and educational purposes only and does not constitute financial, investment, or legal advice. Any references to growth, rankings, income, or projections are illustrative only and not guarantees of results. Individual outcomes will vary based on effort, experience, timing, and market conditions. Past performance is not indicative of future results. Always conduct your own due diligence and seek independent professional, financial, legal, or tax advice before making any business or financial decisions.
+        </p>
+    </div>
+  </section>
+
+<style>
+.ready-section,
+.disclaimer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.ready-section h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+}
+
+.cta-button:active {
+  transform: scale(0.98);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.disclaimer-box {
+    width: 102%;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.disclaimer-box {
+    height: 300px;
+    line-height: 1.5;
+}
+
+.expert-section {
+  background: #ffffff;
+  padding: 20px 20px 60px;
+}
+
+.expert-container {
+  max-width: 1000px;
+  margin-left: 360px; 
+  margin-top: -10px;
+}
+
+.expert-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.expert-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;                 
+}
+
+.expert-image-box {
+  flex: 0 0 33%;
+}
+
+.expert-image-box img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.expert-text {
+  flex: 1;
+  text-align: left;
+}
+
+.expert-text h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.expert-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+@media(max-width: 1350px) {
+  .expert-container {
+    margin-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 800px) {
+  .expert-content {
+    flex-direction: column;
+    text-align: left;
+  }
+  .expert-image-box {
+    flex: 0 0 100%;
+    max-width: 250px;
+  }
+}
+</style>
+
+<style>
+.calculator-section {
+  background:#f7f7f7;
+  padding:80px 20px;
+  text-align:center;
+}
+
+.calculator-section h2 {
+  font-family:'Playfair Display',serif;
+  font-size:28px;
+  margin-bottom:40px;
+}
+
+.calculator-grid {
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  gap:40px;
+  justify-content:center;
+}
+
+.calculator-card {
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
+  max-width:520px;
+  flex:1;
+}
+
+.calculator-card img {
+  width:100%;
+  display:block;
+}
+
+@media(max-width:900px){
+  .calculator-grid{flex-direction:column;}
+}
+</style>
+
+   <div class="admin-panel" id="adminPanel">
+   👁️ Total Website Visits: <strong id="visitCount">0</strong>
+  </div>
+
+  <script>
+    const VISIT_KEY = "aurum_total_visits";
+    const SESSION_KEY = "aurum_visited";
+
+    if (!sessionStorage.getItem(SESSION_KEY)) {
+      let visits = parseInt(localStorage.getItem(VISIT_KEY) || "0", 10);
+      visits++;
+      localStorage.setItem(VISIT_KEY, visits);
+      sessionStorage.setItem(SESSION_KEY, "true");
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("admin") === "aurumadmin") {
+      const panel = document.getElementById("adminPanel");
+      panel.style.display = "block";
+      document.getElementById("visitCount").textContent = localStorage.getItem(VISIT_KEY) || "0";
+    }
+  </script>
+
+  <div id="lightbox" style="
+    position:fixed;
+    top:0;left:0;
+    width:100%;height:100%;
+    background:rgba(0,0,0,0.85);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:9999;
+  ">
+    <img id="lightbox-img" style="max-width:90%;max-height:90%;border-radius:10px;">
+  </div>
+
+  <script>
+    const imgs = document.querySelectorAll("img");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    imgs.forEach(img => {
+      img.addEventListener("click", function () {
+        lightbox.style.display = "flex";
+        lightboxImg.src = this.src;
+      });
+    });
+
+    lightbox.addEventListener("click", () => {
+      lightbox.style.display = "none";
+    });
+  </script>
 
 </body>
 </html>
