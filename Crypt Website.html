@@ -321,6 +321,46 @@
       z-index: 1000;
     }
 
+    .belief-card {
+    width: 100%;
+    max-width: 560px;
+    position: relative;
+    display: inline-block;
+  }
+    .video-cover {
+      display: block;
+      position: relative;
+      cursor: pointer;
+    }
+    .video-cover img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+  }
+
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 50px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .play-button:after {
+      content: "";
+      border-style: solid;
+      border-width: 10px 0 10px 20px;
+      border-color: transparent transparent transparent white;
+    }
+    .video-cover:hover .play-button {
+      background: red;
+    }
+
     @media (max-width: 900px) {
       .hero {
         flex-direction: column;
@@ -346,6 +386,7 @@
         font-size: 1.8rem;
       }
     }
+
   </style>
 </head>
 <body>
@@ -390,6 +431,14 @@
       <div class="belief-card">
         <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20231977/file/c1f3b763f43529a4ee47833246587fa1.jpg" alt="Aurum Forbes Recognition">
       </div>
+
+      <div class="belief-card">
+        <a href="https://www.youtube.com/watch?v=ogFrVVcJMEg" target="_blank" class="video-cover">
+          <img src="https://img.youtube.com/vi/ogFrVVcJMEg/maxresdefault.jpg" alt="Watch on YouTube">
+          <div class="play-button"></div>
+        </a>
+      </div>
+      
       <div class="belief-card">
         <img src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/vyEOEO/image/20232000/file/b31f8b39c145fd25e1536a36839eab83.jpg" alt="Aurum EX-AI Bot">
       </div>
